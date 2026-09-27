@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  --color-forest-950: #091a12;
+  --color-forest-900: #0f281d;
+  --color-forest-850: #143325;
+  --color-forest-800: #19402f;
+  --color-forest-700: #23543e;
+  --color-forest-600: #2f6d52;
+
+  --color-chartreuse-300: #e5f4a7;
+  --color-chartreuse-400: #d4ec6f;
+  --color-chartreuse-500: #bcdb3e;
+  --color-chartreuse-600: #9cb927;
+
+  --color-sand-50: #fdfbf8;
+  --color-sand-100: #f7f3ec;
+  --color-sand-200: #eee7db;
+  --color-sand-300: #dfd4c1;
+  --color-sand-400: #c9baa1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #1a2920;
+  background-color: #faf8f5;
+  overflow-x: hidden;
+}
+
+.font-editorial {
+  font-family: var(--font-serif);
+  letter-spacing: -0.02em;
+}
